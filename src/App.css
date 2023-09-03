@@ -36,3 +36,140 @@
     transform: rotate(360deg);
   }
 }
+
+.siteLogo {
+  width: 95px;
+  height: 81px;
+  margin: 15px;
+}
+
+.headerIconsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 15px;
+}
+
+.iconMarginHorizontal {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.shoppingCartCount {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.iconSize {
+  width: 25px;
+  height: 25px;
+}
+
+.tshirtCard {
+  background-color: #2e2e2e;
+  width: 50%;
+  margin-left: 1px;
+  margin-bottom: 10px;
+}
+
+.imageDiv {
+}
+.tshirtImage {
+  width: 80%;
+}
+
+.tshirtType {
+  text-align: left;
+  margin-left: 100px;
+  position: relative;
+  top: 100px;
+  color: #2e2e2e;
+  /* font-size: 30px; */
+}
+.tshirtName {
+  text-align: left;
+  margin-left: 100px;
+  font-size: 5rem;
+  position: relative;
+  color: #2e2e2e;
+  top: 300px;
+}
+
+.button {
+  position: relative;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 50px;
+  border-color: #00020480;
+  bottom: 150px;
+  width: 50%;
+}
+.button:hover {
+  background-color: #00000080;
+  color: white;
+  transition: 0.5s;
+}
+
+.buttonText {
+  font-weight: bold;
+  color: #002f7a80;
+}
+
+.tshirtBannerDiv {
+  display: flex;
+  background-color: #2e2e2e;
+}
+
+.marqueeText {
+  padding: 2rem;
+}
+
+.title {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.eskiSerilerDiv {
+  background-color: #2e2e2e;
+  font-weight: bold;
+}
+
+.productCardDiv {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* width: 20%; */
+  margin: 0 7rem;
+}
+
+.frontImage {
+  display: block;
+}
+.hoverImage {
+  display: none;
+}
+
+.productCardDiv:hover .frontImage {
+  display: none;
+}
+
+.productCardDiv:hover .hoverImage {
+  display: block;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.productImage {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.productCardInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.white {
+  color: white;
+}
