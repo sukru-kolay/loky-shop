@@ -119,16 +119,20 @@
 .tshirtBannerDiv {
   display: flex;
   background-color: #2e2e2e;
+  justify-content: space-between;
 }
 
 .marqueeText {
   padding: 2rem;
+  font-size: 1rem;
 }
 
 .title {
   font-size: 5rem;
   color: white;
   text-align: center;
+  margin: 0;
+  padding: 4rem;
 }
 
 .eskiSerilerDiv {
@@ -152,9 +156,11 @@
 
 .productCardDiv:hover .frontImage {
   display: none;
+  transition: 1s;
 }
 
 .productCardDiv:hover .hoverImage {
+  transition: 1s;
   display: block;
   border-radius: 20px;
   width: 100%;
@@ -172,4 +178,18 @@
 
 .white {
   color: white;
+}
+.footerDiv {
+  width: 50%;
+  background-color: rgb(235, 217, 217);
+}
+.footerList li {
+  list-style: none;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.footerList li a {
+  text-decoration: none;
+  color: #282c34;
 }
