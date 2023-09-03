@@ -180,8 +180,8 @@
   color: white;
 }
 .footerDiv {
-  width: 50%;
-  background-color: rgb(235, 217, 217);
+  display: flex;
+  justify-content: space-between;
 }
 .footerList li {
   list-style: none;
@@ -192,4 +192,25 @@
 .footerList li a {
   text-decoration: none;
   color: #282c34;
+}
+
+.footerLeft {
+  width: 50%;
+  margin: 0 3rem;
+}
+.footerRight {
+  width: 10%;
+  margin: 0 10rem;
+}
+
+.footerFormTitle {
+  text-align: right;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.footerInput {
+  border: none;
+}
+.footerInput:focus {
+  /* border-bottom: 5px solid; */
 }
