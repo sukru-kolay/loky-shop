@@ -214,3 +214,15 @@
 .footerInput:focus {
   /* border-bottom: 5px solid; */
 }
+
+.inputComponent {
+  /* border-radius: 1rem; */
+  border: none;
+  border-bottom: 2px solid red;
+  padding: 0.5rem;
+}
+
+.inputComponent:focus {
+  border: none;
+  border-bottom: 2px solid red;
+}

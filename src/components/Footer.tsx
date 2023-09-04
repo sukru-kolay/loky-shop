@@ -1,5 +1,5 @@
 import React from "react";
-
+import Input from "./Input";
 const Footer = () => {
   return (
     <div className="footerDiv">
@@ -29,7 +29,8 @@ const Footer = () => {
           <br />
           <span> HABERLER</span>
         </p>
-        <input className="footerInput" placeholder="EPOSTA" type="email" />
+        {/* <input className="footerInput" placeholder="EPOSTA" type="email" /> */}
+        <Input type="email" placeholder="EPOSTA" />
         <button>Gönder</button>
       </div>
     </div>
