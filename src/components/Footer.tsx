@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "./Input";
+import Button from "./Button";
 const Footer = () => {
   return (
     <div className="footerDiv">
@@ -30,8 +31,10 @@ const Footer = () => {
           <span> HABERLER</span>
         </p>
         {/* <input className="footerInput" placeholder="EPOSTA" type="email" /> */}
-        <Input type="email" placeholder="EPOSTA" />
-        <button>Gönder</button>
+        <div className="mailDiv">
+          <Input type="email" placeholder="EPOSTA" />
+          <Button text="TAMAM" />
+        </div>
       </div>
     </div>
   );

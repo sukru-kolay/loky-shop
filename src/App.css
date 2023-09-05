@@ -73,8 +73,6 @@
   margin-bottom: 10px;
 }
 
-.imageDiv {
-}
 .tshirtImage {
   width: 80%;
 }
@@ -96,24 +94,41 @@
   top: 300px;
 }
 
-.button {
+.imageDiv {
   position: relative;
-  background-color: transparent;
-  padding: 10px;
-  border-radius: 50px;
-  border-color: #00020480;
-  bottom: 150px;
-  width: 50%;
 }
-.button:hover {
-  background-color: #00000080;
-  color: white;
-  transition: 0.5s;
+.buyButtonDiv {
+  position: absolute;
+  bottom: 50px;
+  left: 350px;
 }
 
+.button {
+  background-color: transparent;
+  border: none;
+}
+.button:hover .buttonText {
+  color: #02020380;
+}
 .buttonText {
+  transition: 0.5s;
   font-weight: bold;
-  color: #002f7a80;
+  color: #454c5780;
+}
+.secondary-button {
+  border-radius: 20px;
+  transition: 0.5s;
+  border-color: #0d0e1180;
+}
+.secondary-button:hover {
+  background-color: #16191d80;
+}
+.secondary-button:hover .buttonText {
+  color: #fff;
+}
+.mailDiv {
+  display: flex;
+  align-items: center;
 }
 
 .tshirtBannerDiv {
@@ -211,18 +226,21 @@
 .footerInput {
   border: none;
 }
-.footerInput:focus {
-  /* border-bottom: 5px solid; */
-}
 
 .inputComponent {
-  /* border-radius: 1rem; */
   border: none;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #a6a6a6;
   padding: 0.5rem;
+  transition: border-bottom 1s;
+  color: #a6a6a6;
 }
 
 .inputComponent:focus {
   border: none;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.inputComponent:hover::placeholder {
+  transition: 1s;
+  color: black;
 }

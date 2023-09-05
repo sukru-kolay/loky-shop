@@ -8,14 +8,14 @@ interface IProps {
 const TshirtCard: React.FC<IProps> = ({ tshirtLogo, type, tshirtName }) => {
   return (
     <div className="tshirtCard">
-      {/* <div className="textDiv"> */}
       <h2 className="tshirtName">{tshirtName}</h2>
       <h1 className="tshirtType">{type}</h1>
-      {/* </div> */}
       <div className="imageDiv">
         <img src={tshirtLogo} className="tshirtImage" />
+        <div className="buyButtonDiv">
+          <Button text="SATIN AL" theme="secondary" />
+        </div>
       </div>
-      <Button text="SATIN AL" />
     </div>
   );
 };

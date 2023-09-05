@@ -1,10 +1,12 @@
 import React from "react";
 interface ButtonProps {
   text: string;
+  theme?: string;
 }
-const Button: React.FC<ButtonProps> = ({ text }) => {
+const Button: React.FC<ButtonProps> = ({ text, theme }) => {
+  const buttonClassName = theme === "secondary" ? "secondary-button" : "button";
   return (
-    <button className="button">
+    <button className={buttonClassName}>
       <p className="buttonText">{text}</p>
     </button>
   );
