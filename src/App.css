@@ -103,6 +103,19 @@
   left: 350px;
 }
 
+.imageDiv:hover .buyButtonDivProduct {
+  transition: 1s;
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  left: 90px;
+}
+.buyButtonDivProduct {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+}
 .button {
   background-color: transparent;
   border: none;
@@ -164,9 +177,11 @@
 
 .frontImage {
   display: block;
+  transition: 1s;
 }
 .hoverImage {
   display: none;
+  transition: 1s;
 }
 
 .productCardDiv:hover .frontImage {

@@ -13,8 +13,10 @@ const ProductCard: React.FC<IProuctProps> = ({ name, price }) => {
       <div className="imageDiv">
         <img className="productImage frontImage" src={productfront} alt="" />
         <img className="productImage hoverImage" src={productHover} alt="" />
+        <div className="buyButtonDivProduct">
+          <Button text="SEPETE EKLE" theme="secondary" />
+        </div>
       </div>
-      {/* <Button text="SEPETE EKLE" /> */}
 
       <div className="productCardInfo">
         <p className="white">{name}</p>
