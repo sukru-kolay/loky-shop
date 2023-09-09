@@ -9,7 +9,7 @@ const TshirtCard: React.FC<IProps> = ({ tshirtLogo, type, tshirtName }) => {
   return (
     <div className="tshirtCard">
       <h2 className="tshirtName">{tshirtName}</h2>
-      <h1 className="tshirtType">{type}</h1>
+      <h3 className="tshirtType">{type}</h3>
       <div className="imageDiv">
         <img src={tshirtLogo} className="tshirtImage" />
         <div className="buyButtonDiv">
