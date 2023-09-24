@@ -112,7 +112,7 @@
   display: block;
   position: absolute;
   bottom: 50px;
-  left: 150px;
+  left: 130px;
 }
 .buyButtonDivProduct {
   display: none;
@@ -133,6 +133,7 @@
   color: #0062ff80;
 }
 .secondary-button {
+  background-color: transparent;
   border-radius: 20px;
   transition: 0.5s;
   border-color: #0d0e1180;
@@ -261,4 +262,8 @@
 .inputComponent:hover::placeholder {
   transition: 1s;
   color: black;
+}
+
+.underlineText {
+  text-decoration: underline;
 }

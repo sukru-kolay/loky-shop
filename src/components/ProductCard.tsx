@@ -2,6 +2,7 @@ import React from "react";
 import productfront from "../assets/productfront.webp";
 import productHover from "../assets/producthover.png";
 import Button from "./Button";
+import { BsArrowRight } from "react-icons/bs";
 
 interface IProuctProps {
   name: string;
@@ -15,6 +16,10 @@ const ProductCard: React.FC<IProuctProps> = ({ name, price }) => {
         <img className="productImage hoverImage" src={productHover} alt="" />
         <div className="buyButtonDivProduct">
           <Button text="SEPETE EKLE" theme="secondary" />
+          <div className="mailDiv">
+            <p className="underlineText white">Ürünü İncele</p>
+            <BsArrowRight className="white iconMarginHorizontal" />
+          </div>
         </div>
       </div>
 
