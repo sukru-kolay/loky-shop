@@ -18,7 +18,6 @@ function App() {
         <Route path="/productDetail" element={<ProductDetail />} />
         <Route path="/shoppingCart" element={<ShoppingCart />} /> */}
       <div className="App">
-        <h2>Şükrü KOLAY</h2>
         <img src={logo} className="siteLogo" />
         <div className="headerIconsContainer">
           <SearchIcon />
