@@ -9,16 +9,12 @@ import tshirt2 from "../assets/tshirt2.webp";
 import Footer from "../components/Footer";
 import ShoppingCart from "../components/ShoppingCart";
 import ProductCard from "../components/ProductCard";
+import Header from "../components/Header";
 function Main() {
   return (
     <>
       <div className="App">
-        <img src={logo} className="siteLogo" />
-        <div className="headerIconsContainer">
-          <SearchIcon />
-          <UserIcon />
-          <ShoppingCart />
-        </div>
+        <Header/>
         <div className="tshirtBannerDiv">
           <TshirtCard
             tshirtLogo={tshirt1}

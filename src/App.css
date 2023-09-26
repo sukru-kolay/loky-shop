@@ -267,3 +267,12 @@
 .underlineText {
   text-decoration: underline;
 }
+
+.DetailPage{
+  min-height: 100vh;
+}
+
+.contentContainer{
+  background-color: #3c3c3f;
+  height: 50vh;
+}
