@@ -1,13 +1,9 @@
 import Marquee from "react-fast-marquee";
 import "../App.css";
-import logo from "../assets/logo.jpg";
-import UserIcon from "../components/UserIcon";
-import SearchIcon from "../components/SearchIcon";
 import TshirtCard from "../components/TshirtCard";
 import tshirt1 from "../assets/tshirt1.webp";
 import tshirt2 from "../assets/tshirt2.webp";
 import Footer from "../components/Footer";
-import ShoppingCart from "../components/ShoppingCart";
 import ProductCard from "../components/ProductCard";
 import Header from "../components/Header";
 function Main() {

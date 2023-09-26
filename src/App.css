@@ -274,5 +274,13 @@
 
 .contentContainer{
   background-color: #3c3c3f;
-  height: 50vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: "row";
+  padding: 2rem;
+}
+
+.detailTshirtImage{
+  height: 100%;
+  border-radius: 5%;
 }
