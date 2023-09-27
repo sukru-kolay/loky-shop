@@ -144,6 +144,21 @@
 .secondary-button:hover .buttonText {
   color: #fff;
 }
+
+.outlineButton {
+  border-radius: 15px;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+.outlineButton:hover {
+  background-color: white;
+}
+
+.outlineButton:hover .buttonText {
+  color: #02020380;
+}
+
 .mailDiv {
   display: flex;
   align-items: center;
