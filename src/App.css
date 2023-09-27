@@ -268,11 +268,11 @@
   text-decoration: underline;
 }
 
-.DetailPage{
+.DetailPage {
   min-height: 100vh;
 }
 
-.contentContainer{
+.contentContainer {
   background-color: #3c3c3f;
   height: 70vh;
   display: flex;
@@ -280,7 +280,11 @@
   padding: 2rem;
 }
 
-.detailTshirtImage{
+.detailTshirtImage {
   height: 100%;
   border-radius: 5%;
+}
+
+.marginLeft1 {
+  margin-left: 1rem;
 }
