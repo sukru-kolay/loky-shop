@@ -57,9 +57,9 @@
 }
 
 .shoppingCartCount {
-  position: relative;
-  top: 20px;
+  position: "relative";
   left: 10px;
+  margin: 0;
 }
 .iconSize {
   width: 25px;
