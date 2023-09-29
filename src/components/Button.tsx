@@ -2,8 +2,10 @@ import React from "react";
 interface ButtonProps {
   text: string;
   theme?: string;
+  onPress?: React.MouseEventHandler<HTMLButtonElement>
+
 }
-const Button: React.FC<ButtonProps> = ({ text, theme }) => {
+const Button: React.FC<ButtonProps> = ({ text, theme, onPress }) => {
   // const buttonClassName = theme === "secondary" ? "secondary-button" : "button";
   let buttonClassName = "";
   let buttonText = "buttonText";
@@ -16,7 +18,7 @@ const Button: React.FC<ButtonProps> = ({ text, theme }) => {
     buttonClassName = "button";
   }
   return (
-    <button className={buttonClassName}>
+    <button className={buttonClassName} onClick={onPress}>
       <p className={buttonText}>{text}</p>
     </button>
   );

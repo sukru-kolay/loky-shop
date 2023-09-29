@@ -20,6 +20,9 @@ const options = [
 ];
 
 const ProductDetail = () => {
+  const handlePress = ()=>{
+    console.log("Şükrü Kolay")
+  }
   return (
     <div className=" App DetailPage">
       <Header />
@@ -40,10 +43,10 @@ const ProductDetail = () => {
             </div>
           </div>
           <div style={{ width: "25%" }}>
-            <Select options={options} isSearchable={false} />
+            <Select options={options} isSearchable={false} required/>
           </div>
           <div style={{ width: "25%", marginTop: "1rem" }}>
-            <Button text="SEPETE EKLE" theme="outlineButton" />
+            <Button text="SEPETE EKLE" theme="outlineButton" onPress={handlePress}/>
           </div>
           <div style={{marginTop:"1rem"}}>
       <Accordion >
